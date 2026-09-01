@@ -1,6 +1,5 @@
 "use client";
 
-import { Button } from "@relume_io/relume-ui";
 import { motion, useScroll, useTransform } from "framer-motion";
 import React, { useRef } from "react";
 
@@ -26,7 +25,10 @@ const Circle = () => {
 
 export function Timeline5() {
   return (
-    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
+    <section
+  id="experience"
+  className="scroll-mt-20 px-[5%] py-16 md:py-24 lg:py-28"
+>
       <div className="container max-w-lg">
         <div className="mb-12 md:mb-18 lg:mb-20">
           <div className="relative z-10 w-full max-w-lg">
@@ -39,11 +41,6 @@ export function Timeline5() {
               businesses across consulting, payments, fintech and customer
               transformation.
             </p>
-            <div className="mt-6 flex flex-wrap items-center gap-4 md:mt-8">
-              <Button title="Explore my experience" variant="secondary">
-                Explore my experience
-              </Button>
-            </div>
           </div>
         </div>
         <div className="grid w-full max-w-lg auto-cols-fr grid-cols-[max-content_1fr] items-start justify-items-center">
@@ -69,9 +66,7 @@ export function Timeline5() {
                   Build and transform
                 </h4>
                 <p>
-                  Built the foundation across strategy, customer transformation
-                  and large-scale execution. The discipline of making things
-                  real.
+                  Built and led customer and business transformation programs, connecting strategy, technology and execution across complex organizations.
                 </p>
               </div>
             </div>
@@ -85,9 +80,7 @@ export function Timeline5() {
                   Build and scale
                 </h4>
                 <p>
-                  Moved inside the engine of payments and scaled a commercial
-                  services business across Mexico and Central America. Growth
-                  with economics that work.
+                  Scaled a commercial services business across Mexico and Central America, building new capabilities, client relationships and sustainable growth.
                 </p>
               </div>
             </div>
@@ -101,9 +94,7 @@ export function Timeline5() {
                   Operate and scale
                 </h4>
                 <p>
-                  Strengthened the commercial and operating model of a global
-                  fintech and payments advisory business. Discipline turns
-                  potential into performance.
+                  Strengthened the commercial and operating model of a global fintech and payments advisory business, connecting growth strategy with execution.
                 </p>
               </div>
             </div>
@@ -117,9 +108,7 @@ export function Timeline5() {
                   Connect and build
                 </h4>
                 <p>
-                  Connected customer experience, commerce, data, AI and
-                  technology around new-business opportunities. The whole is
-                  worth more than the parts.
+                  Connected customer experience, commerce, data, AI and technology to develop new business opportunities and transformation agendas.
                 </p>
               </div>
             </div>

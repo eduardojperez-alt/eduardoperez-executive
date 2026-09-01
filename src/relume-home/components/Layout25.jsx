@@ -11,36 +11,31 @@ export function Layout25() {
     >
       <div className="container">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-[1fr_0.9fr] lg:items-center lg:gap-16">
-
-          {/* LEFT COLUMN */}
           <div>
             <p className="mb-3 font-semibold uppercase tracking-wide md:mb-4">
               PUBLIC PERSPECTIVE
             </p>
 
             <h2 className="mb-5 text-5xl font-bold leading-[1.05] md:mb-6 md:text-6xl lg:text-7xl">
-              Experience informs
+              A perspective shaped
               <br />
-              the perspective
+              by building
             </h2>
 
             <p className="mb-10 max-w-xl md:mb-12 md:text-md">
-              Published in Forbes México. Contributor to industry conversations
-              with Adobe, Getnet and VML. Publisher of BizPay Pulse and
-              Marketing & Tech Insights.
+              Ideas shaped by more than two decades building businesses,
+              transforming customer models and working across financial
+              services, technology and growth.
             </p>
 
-            {/* TWO PERSPECTIVE COLUMNS */}
             <div className="grid grid-cols-1 gap-10 md:grid-cols-2 md:gap-12">
-
-              {/* FORBES */}
               <div className="flex flex-col">
                 <h3 className="mb-4 text-3xl font-bold leading-[1.05] md:text-4xl lg:text-5xl">
                   Forbes México
                 </h3>
 
                 <p className="mb-6">
-                  An earlier perspective on how digital customer behavior would
+                  An early perspective on how digital customer behavior would
                   reshape engagement.
                 </p>
 
@@ -55,7 +50,6 @@ export function Layout25() {
                 </a>
               </div>
 
-              {/* INDUSTRY CONVERSATIONS */}
               <div className="flex flex-col">
                 <h3 className="mb-4 text-3xl font-bold leading-[1.05] md:text-4xl lg:text-5xl">
                   Industry conversations
@@ -74,11 +68,9 @@ export function Layout25() {
                   <RxChevronRight />
                 </a>
               </div>
-
             </div>
           </div>
 
-          {/* RIGHT IMAGE */}
           <div className="w-full overflow-hidden">
             <img
               src="/images/perspective/industry-conversation.jpg"
@@ -86,7 +78,6 @@ export function Layout25() {
               alt="Industry conversation"
             />
           </div>
-
         </div>
       </div>
     </section>

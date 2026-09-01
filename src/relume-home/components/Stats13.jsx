@@ -22,9 +22,9 @@ export function Stats13() {
             </h2>
 
             <p className="max-w-lg md:text-md">
-              Across consulting, financial services, payments, fintech and
-              digital businesses.
-            </p>
+  Across Accenture, Mastercard, fintech, financial services and digital
+  businesses.
+</p>
           </div>
 
           {/* RESULTS GRID */}

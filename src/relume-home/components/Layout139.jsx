@@ -4,19 +4,36 @@ import React from "react";
 
 export function Layout139() {
   return (
-    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
-      <div className="container max-w-lg text-center">
-        <h3 className="mb-5 text-4xl font-bold leading-[1.2] md:mb-6 md:text-5xl lg:text-6xl">
-          Building businesses. Connecting possibilities. Creating value.
-        </h3>
-        <p className="mb-5 md:mb-6 md:text-md">
-          My career has been shaped by inflection points—moments when markets,
-          customers or technology change and businesses need to decide what
-          comes next. I have spent more than two decades helping organizations
-          navigate those moments by building new businesses, scaling
-          capabilities and connecting strategy to measurable execution. Build ·
-          Scale · Connect · Create Value
-        </p>
+    <section
+      id="about"
+      className="scroll-mt-20 px-[5%] py-16 md:py-24 lg:py-28"
+    >
+      <div className="container max-w-5xl text-center">
+        <p className="mb-3 font-semibold uppercase tracking-wide md:mb-4">
+  ABOUT
+</p>
+
+        <h2 className="mb-6 text-4xl font-bold leading-[1.15] md:text-5xl lg:text-6xl">
+          Building has been the common thread.
+        </h2>
+
+        <div className="mx-auto max-w-4xl space-y-6 text-base leading-relaxed text-[#F5F3EF]/65 md:text-lg">
+          <p>
+            My career has moved across consulting, payments, fintech, marketing technology and   		business transformation. The common thread has been building for growth: new 			businesses, commercial capabilities, customer propositions and operating models.
+          </p>
+
+          <p>
+            I have worked across Latin America at the intersection of strategy
+            and execution—combining the discipline of large organizations with
+            the pace and ambiguity of entrepreneurial environments.
+          </p>
+
+          <p className="font-medium text-[#F5F3EF]">
+            What interests me most are inflection points: moments when markets,
+            customers or technology shift enough to create a new opportunity
+            to build.
+          </p>
+        </div>
       </div>
     </section>
   );

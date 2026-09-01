@@ -40,7 +40,7 @@ export function Navbar3() {
       {/* DESKTOP NAV */}
       <div className="hidden items-center gap-6 lg:flex">
         <button
-          onClick={() => goTo("focus")}
+          onClick={() => goTo("about")}
           className="text-sm text-[#F5F3EF] transition-opacity hover:opacity-70"
         >
           About
@@ -68,14 +68,19 @@ export function Navbar3() {
         </button>
       </div>
 
-      {/* LOGO / NAME */}
-      <button
-        type="button"
-        onClick={() => goTo("home")}
-        className="font-serif text-lg font-bold tracking-wide text-[#F5F3EF] md:text-xl"
-      >
-        EPB
-      </button>
+      {/* LOGO / MONOGRAM */}
+<button
+  type="button"
+  onClick={() => goTo("home")}
+  className="flex items-center justify-center"
+  aria-label="Eduardo Pérez Blandón - Home"
+>
+  <img
+  src="/images/brand/epb-monogram.png"
+  alt="EPB"
+  className="h-9 w-auto object-contain"
+/>
+</button>
 
       {/* CTA */}
       <button
@@ -91,7 +96,7 @@ export function Navbar3() {
         <div className="absolute left-0 top-full z-50 flex w-full flex-col border-b border-[#F5F3EF]/10 bg-[#1C1C1C] px-[5%] py-5 shadow-lg lg:hidden">
           <button
             type="button"
-            onClick={() => goTo("focus")}
+            onClick={() => goTo("about")}
             className="py-3 text-left text-[#F5F3EF]"
           >
             About
