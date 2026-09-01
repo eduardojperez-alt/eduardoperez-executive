@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Source Sans 3", sans-serif;
+  color: #f5f3ef;
+  background: #1c1c1c;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding-top: 64px;
+  background: #1c1c1c;
+  color: #f5f3ef;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Aleo", serif;
+}
+
+button,
+a,
+p,
+span,
+li {
+  font-family: "Source Sans 3", sans-serif;
+}
