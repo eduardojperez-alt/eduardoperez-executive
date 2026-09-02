@@ -57,12 +57,11 @@ export function Layout298() {
 
             <div className="w-full">
               <h3 className="mb-3 text-center text-xl font-bold uppercase md:mb-4 md:text-2xl">
-                CUSTOMER, AI & BUSINESS TRANSFORMATION
+                CUSTOMER EXPERIENCE, DATA & AI
               </h3>
 
               <p className="text-center">
-                Connecting customer needs, data, AI and technology with
-                meaningful business change.
+                Connecting customer needs, experience design, data and AI to transform how businesses engage, operate and grow.
               </p>
             </div>
 

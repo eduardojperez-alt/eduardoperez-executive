@@ -30,12 +30,12 @@ export function Layout457() {
         {/* IMPACT STORIES */}
         <div className="grid auto-cols-fr grid-cols-1 items-start gap-12 md:grid-cols-3 md:gap-8 lg:gap-12">
 
-          {/* CUSTOMER-CENTRIC TRANSFORMATION */}
+          {/* CUSTOMER EXPERIENCE TRANSFORMATION */}
           <div className="w-full">
             <div className="mb-6 w-full overflow-hidden md:mb-8">
               <img
                 src="/images/impact/customer-transformation.jpg"
-                alt="Customer-centric transformation"
+                alt="Customer experience transformation"
                 className="aspect-[3/2] w-full object-cover object-center"
               />
             </div>
@@ -45,9 +45,7 @@ export function Layout457() {
             </h3>
 
             <p>
-              Led a $10M transformation from product-centric toward
-              customer-centric, spanning organization, data, commercial
-              capabilities and customer experience.
+              Led a $10M transformation from product-centric to customer-centric, connecting customer experience, data, organization and commercial capabilities.
             </p>
           </div>
 
