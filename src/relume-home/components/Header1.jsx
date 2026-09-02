@@ -38,7 +38,7 @@ export function Header1() {
             </p>
 
             <p className="max-w-lg text-base leading-relaxed md:text-lg">
-              I build and scale businesses by connecting customer experience, data, AI and technology with new capabilities and measurable growth.
+              I build and scale businesses by connecting strategy, customer experience, data, AI and technology with commercial execution and measurable growth.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4 md:mt-10">
