@@ -53,7 +53,7 @@ export function Header1() {
               <Button
                 title="About Eduardo"
                 variant="secondary"
-                onClick={() => goTo("focus")}
+                onClick={() => goTo("about")}
                 className="border border-[#F5F3EF]/40 bg-transparent text-[#F5F3EF]"
               >
                 About Eduardo
