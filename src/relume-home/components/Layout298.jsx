@@ -31,52 +31,89 @@ export function Layout298() {
           </div>
 
           {/* FOCUS AREAS */}
-          <div className="grid grid-cols-1 items-start gap-y-12 md:grid-cols-2 md:gap-x-8 md:gap-y-16 lg:grid-cols-4">
-            
-            <div className="w-full">
-              <h3 className="mb-3 text-center text-xl font-bold uppercase md:mb-4 md:text-2xl">
-                GROWTH & COMMERCIAL STRATEGY
-              </h3>
+<div className="grid w-full grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 md:gap-y-16 lg:gap-x-10 lg:gap-y-20">
 
-              <p className="text-center">
-                New businesses, go-to-market, commercial models and new sources
-                of growth.
-              </p>
-            </div>
+  {/* 01 — Growth */}
+  <div className="w-full">
+    <div className="mb-6 aspect-[3/2] overflow-hidden">
+      <img
+        src="/images/focus/growth-strategy.jpg"
+        alt="Strategic decision making represented through chess"
+        className="h-full w-full object-cover"
+      />
+    </div>
 
-            <div className="w-full">
-              <h3 className="mb-3 text-center text-xl font-bold uppercase md:mb-4 md:text-2xl">
-                FINANCIAL SERVICES, PAYMENTS & FINTECH
-              </h3>
+    <h3 className="mb-3 text-2xl font-bold uppercase md:text-3xl">
+      GROWTH & COMMERCIAL STRATEGY
+    </h3>
 
-              <p className="text-center">
-                The evolving ecosystems, infrastructure and business models
-                reshaping financial services.
-              </p>
-            </div>
+    <p className="max-w-xl text-base leading-relaxed md:text-lg">
+      New businesses, go-to-market, commercial models and new sources
+      of growth.
+    </p>
+  </div>
 
-            <div className="w-full">
-              <h3 className="mb-3 text-center text-xl font-bold uppercase md:mb-4 md:text-2xl">
-                CUSTOMER EXPERIENCE, DATA & AI
-              </h3>
+  {/* 02 — Financial Services */}
+  <div className="w-full">
+    <div className="mb-6 aspect-[3/2] overflow-hidden">
+      <img
+        src="/images/focus/financial-ecosystem.jpg"
+        alt="Connected financial ecosystem across the Americas"
+        className="h-full w-full object-cover"
+      />
+    </div>
 
-              <p className="text-center">
-                Connecting customer needs, experience design, data and AI to transform how businesses engage, operate and grow.
-              </p>
-            </div>
+    <h3 className="mb-3 text-2xl font-bold uppercase md:text-3xl">
+      FINANCIAL SERVICES, PAYMENTS & FINTECH
+    </h3>
 
-            <div className="w-full">
-              <h3 className="mb-3 text-center text-xl font-bold uppercase md:mb-4 md:text-2xl">
-                OPERATING MODELS, ECOSYSTEMS & EXECUTION
-              </h3>
+    <p className="max-w-xl text-base leading-relaxed md:text-lg">
+      The evolving ecosystems, infrastructure and business models
+      reshaping financial services.
+    </p>
+  </div>
 
-              <p className="text-center">
-                Turning strategy into capabilities, partnerships, operating
-                models and measurable execution.
-              </p>
-            </div>
+  {/* 03 — Customer, Data & AI */}
+  <div className="w-full">
+    <div className="mb-6 aspect-[3/2] overflow-hidden">
+      <img
+        src="/images/focus/customer-data-ai.jpg"
+        alt="Data, AI and connected capabilities represented through modular elements"
+        className="h-full w-full object-cover"
+      />
+    </div>
 
-          </div>
+    <h3 className="mb-3 text-2xl font-bold uppercase md:text-3xl">
+      CUSTOMER EXPERIENCE, DATA & AI
+    </h3>
+
+    <p className="max-w-xl text-base leading-relaxed md:text-lg">
+      Connecting customer needs, experience design, data and AI to
+      transform how businesses engage, operate and grow.
+    </p>
+  </div>
+
+  {/* 04 — Execution */}
+  <div className="w-full">
+    <div className="mb-6 aspect-[3/2] overflow-hidden">
+      <img
+        src="/images/focus/execution-precision.jpg"
+        alt="Precision and execution represented through a focused billiards shot"
+        className="h-full w-full object-cover"
+      />
+    </div>
+
+    <h3 className="mb-3 text-2xl font-bold uppercase md:text-3xl">
+      OPERATING MODELS, ECOSYSTEMS & EXECUTION
+    </h3>
+
+    <p className="max-w-xl text-base leading-relaxed md:text-lg">
+      Turning strategy into capabilities, partnerships, operating
+      models and measurable execution.
+    </p>
+  </div>
+
+</div>
         </div>
       </div>
     </section>
