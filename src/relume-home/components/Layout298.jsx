@@ -31,11 +31,11 @@ export function Layout298() {
           </div>
 
           {/* FOCUS AREAS */}
-<div className="grid w-full grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 md:gap-y-16 lg:gap-x-10 lg:gap-y-20">
+<div className="grid w-full grid-cols-1 gap-x-8 gap-y-12 md:grid-cols-2 md:gap-y-12 lg:gap-x-10 lg:gap-y-14">
 
   {/* 01 — Growth */}
   <div className="w-full">
-    <div className="mb-6 aspect-[3/2] overflow-hidden">
+    <div className="mb-6 aspect-[16/9] overflow-hidden">
       <img
         src="/images/focus/growth-strategy.jpg"
         alt="Strategic decision making represented through chess"
@@ -55,7 +55,7 @@ export function Layout298() {
 
   {/* 02 — Financial Services */}
   <div className="w-full">
-    <div className="mb-6 aspect-[3/2] overflow-hidden">
+    <div className="mb-6 aspect-[16/9] overflow-hidden">
       <img
         src="/images/focus/financial-ecosystem.jpg"
         alt="Connected financial ecosystem across the Americas"
@@ -75,7 +75,7 @@ export function Layout298() {
 
   {/* 03 — Customer, Data & AI */}
   <div className="w-full">
-    <div className="mb-6 aspect-[3/2] overflow-hidden">
+    <div className="mb-6 aspect-[16/9] overflow-hidden">
       <img
         src="/images/focus/customer-data-ai.jpg"
         alt="Data, AI and connected capabilities represented through modular elements"
@@ -95,7 +95,7 @@ export function Layout298() {
 
   {/* 04 — Execution */}
   <div className="w-full">
-    <div className="mb-6 aspect-[3/2] overflow-hidden">
+    <div className="mb-6 aspect-[16/9] overflow-hidden">
       <img
         src="/images/focus/execution-precision.jpg"
         alt="Precision and execution represented through a focused billiards shot"
