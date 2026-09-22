@@ -148,7 +148,7 @@ export function Blog10() {
                   href={item.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mb-6 block overflow-hidden"
+                  className="mb-5 block overflow-hidden md:mb-6"
                 >
                   <img
                     src={item.image}
@@ -157,11 +157,11 @@ export function Blog10() {
                   />
                 </a>
 
-                <div className="mb-4 flex flex-wrap items-center gap-3">
+                <div className="mb-3 flex flex-wrap items-center gap-3 md:mb-4">
                   <InsightTag>{item.newsletter}</InsightTag>
                 </div>
 
-                <h3 className="mb-4 text-2xl font-bold leading-tight">
+                <h3 className="mb-3 text-2xl font-bold leading-tight md:mb-4">
                   {item.title}
                 </h3>
 

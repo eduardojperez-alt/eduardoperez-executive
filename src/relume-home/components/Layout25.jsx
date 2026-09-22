@@ -52,12 +52,11 @@ export function Layout25() {
 
               <div className="flex flex-col">
                 <h3 className="mb-4 text-3xl font-bold leading-[1.05] md:text-4xl lg:text-5xl">
-                  Industry conversations
+                  Speaking & industry perspectives
                 </h3>
 
                 <p className="mb-6">
-                  Contributor to conversations on financial services, payments,
-                  customer experience and digital growth.
+                  Perspectives on financial services, payments, customer experience, AI, technology and business growth.
                 </p>
 
                 <a
@@ -75,7 +74,7 @@ export function Layout25() {
             <img
               src="/images/perspective/industry-conversation.jpg"
               className="aspect-[4/3] w-full object-cover object-center"
-              alt="Industry conversation"
+              alt="Speaking & industry perspectives"
             />
           </div>
         </div>

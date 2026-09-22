@@ -2,93 +2,78 @@
 
 import React from "react";
 
+const stories = [
+  {
+    company: "Mastercard",
+    label: "BUILD & SCALE",
+    title: "$9M → $32M services business",
+    body: "Scaled a commercial services business across Mexico and Central America while maintaining target economics, expanding capabilities and building sustainable client growth.",
+    image: "/images/impact/scale-business.jpg",
+    alt: "Building and scaling a services business",
+  },
+  {
+    company: "Accenture",
+    label: "BUILD A CAPABILITY",
+    title: "$10M customer-centric transformation",
+    body: "Built and led transformation agendas connecting customer experience, data, organization, technology and commercial capabilities.",
+    image: "/images/impact/customer-transformation.jpg",
+    alt: "Customer-centric transformation",
+  },
+  {
+    company: "New business build",
+    label: "BUILD THE BUSINESS",
+    title: "500-station fuel-retail launch",
+    body: "Helped launch a large-scale fuel-retail business by connecting strategy, marketing, operations and analytics around a new growth platform.",
+    image: "/images/impact/new-business-build.jpg",
+    alt: "New business build",
+  },
+];
+
 export function Layout457() {
   return (
     <section
       id="impact"
-      className="overflow-hidden px-[5%] py-16 md:py-24 lg:py-28"
+      className="scroll-mt-20 overflow-hidden px-[5%] py-16 md:py-24 lg:py-28"
     >
       <div className="container">
 
-        {/* SECTION HEADER */}
-        <div className="mb-12 max-w-lg md:mb-18 lg:mb-20">
+        <div className="mb-12 max-w-3xl md:mb-16 lg:mb-20">
           <p className="mb-3 font-semibold uppercase tracking-wide md:mb-4">
-            IMPACT
+            SELECTED BUSINESS-BUILDING OUTCOMES
           </p>
 
-          <h2 className="mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
-            From strategy to measurable value
+          <h2 className="mb-5 text-5xl font-bold leading-[1.05] md:mb-6 md:text-7xl lg:text-8xl">
+            What that looks like in practice
           </h2>
 
-          <p className="md:text-md">
-            Selected examples of turning strategy into measurable business
-            outcomes—transforming customer experiences, scaling businesses and
-            building new ventures.
+          <p className="max-w-2xl md:text-md">
+            Selected examples of turning strategic opportunity into measurable
+            business outcomes.
           </p>
         </div>
 
-        {/* IMPACT STORIES */}
-        <div className="grid auto-cols-fr grid-cols-1 items-start gap-12 md:grid-cols-3 md:gap-8 lg:gap-12">
+        <div className="grid grid-cols-1 gap-12 md:grid-cols-3 md:gap-8 lg:gap-12">
+          {stories.map((story) => (
+            <article key={story.title} className="w-full">
+              <div className="mb-6 w-full overflow-hidden md:mb-8">
+                <img
+                  src={story.image}
+                  alt={story.alt}
+                  className="aspect-[3/2] w-full object-cover object-center"
+                />
+              </div>
 
-          {/* CUSTOMER EXPERIENCE TRANSFORMATION */}
-          <div className="w-full">
-            <div className="mb-6 w-full overflow-hidden md:mb-8">
-              <img
-                src="/images/impact/customer-transformation.jpg"
-                alt="Customer experience transformation"
-                className="aspect-[3/2] w-full object-cover object-center"
-              />
-            </div>
+              <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-[#F5F3EF]/60">
+                {story.company} · {story.label}
+              </p>
 
-            <h3 className="mb-3 text-2xl font-bold md:mb-4 md:text-3xl md:leading-[1.3] lg:text-4xl">
-              Customer-centric transformation
-            </h3>
+              <h3 className="mb-3 text-2xl font-bold leading-tight md:text-3xl">
+                {story.title}
+              </h3>
 
-            <p>
-              Led a $10M transformation from product-centric to customer-centric, connecting customer experience, data, organization and commercial capabilities.
-            </p>
-          </div>
-
-          {/* BUILDING AND SCALING */}
-          <div className="w-full md:mt-[25%]">
-            <div className="mb-6 w-full overflow-hidden md:mb-8">
-              <img
-                src="/images/impact/scale-business.jpg"
-                alt="Building and scaling"
-                className="aspect-[3/2] w-full object-cover object-center"
-              />
-            </div>
-
-            <h3 className="mb-3 text-2xl font-bold md:mb-4 md:text-3xl md:leading-[1.3] lg:text-4xl">
-              Building and scaling
-            </h3>
-
-            <p>
-              Scaled a services business from ~$9M to $32M while maintaining
-              target economics.
-            </p>
-          </div>
-
-          {/* NEW BUSINESS BUILD */}
-          <div className="w-full md:mt-[50%]">
-            <div className="mb-6 w-full overflow-hidden md:mb-8">
-              <img
-                src="/images/impact/new-business-build.jpg"
-                alt="New business build"
-                className="aspect-[3/2] w-full object-cover object-center"
-              />
-            </div>
-
-            <h3 className="mb-3 text-2xl font-bold md:mb-4 md:text-3xl md:leading-[1.3] lg:text-4xl">
-              New business build
-            </h3>
-
-            <p>
-              Helped launch a 500-station fuel-retail business, connecting
-              strategy, marketing, operations and analytics.
-            </p>
-          </div>
-
+              <p>{story.body}</p>
+            </article>
+          ))}
         </div>
       </div>
     </section>

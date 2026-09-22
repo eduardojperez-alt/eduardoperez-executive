@@ -26,33 +26,33 @@ export const reports = [
 
 export const latestThinking = [
   {
-    id: "brazil-lemons",
-    newsletter: "BizPay Pulse",
-    title: "Brazil: Lemon’s Biggest Opportunity Yet",
+    id: "metric-after-click",
+    newsletter: "Marketing & Tech",
+    title: "The Metric That Matters After the Click",
     description:
-      "A look at why Brazil could represent the next major growth opportunity for Lemon and what that move says about the evolution of digital financial services in Latin America.",
-    url: "https://www.linkedin.com/pulse/brazil-lemons-biggest-opportunity-yet-eduardo-j-perez-blandon-r5uoc/?trackingId=6AAgvNALSBej9IH%2FQ5%2BmiA%3D%3D",
-    image: "/images/insights/brazil-lemons.jpg",
+      "Why marketing measurement is shifting from impressions and engagement toward evidence of real customer action and business outcomes.",
+    url: "https://www.linkedin.com/pulse/metric-matters-after-click-eduardo-j-perez-blandon-ztkre/",
+    image: "/images/insights/metric-after-click.jpg",
   },
 
-{
-  id: "microdramas",
-  newsletter: "Marketing & Tech",
-  title: "Microdramas Are Reshaping Marketing",
-  description:
-    "Short-form serialized storytelling is emerging as a new battleground for attention, forcing brands and marketers to rethink content, media and engagement models.",
-  url: "https://www.linkedin.com/pulse/microdramas-reshaping-marketing-eduardo-j-perez-blandon-aqy5e/",
-  image: "/images/insights/microdramas.jpg",
-},
+  {
+    id: "nubank-goes-north",
+    newsletter: "BizPay Pulse",
+    title: "Nubank Goes North — And Takes Latin America With It",
+    description:
+      "How Nubank’s U.S. expansion could turn its Latin American scale into a cross-border financial network advantage.",
+    url: "https://www.linkedin.com/pulse/nubank-goes-north-takes-latin-america-eduardo-j-perez-blandon-l40bf/",
+    image: "/images/insights/nubank-goes-north.jpg",
+  },
 
   {
-    id: "mastercard-visa-alliance",
-    newsletter: "BizPay Pulse",
-    title: "Mastercard and Visa Back a New Alliance to Prepare for the Next Era",
+    id: "creator-economy-fit",
+    newsletter: "Marketing & Tech",
+    title: "The Creator Economy Has a New Currency: Fit",
     description:
-      "A new industry alliance highlights how payments infrastructure, standards and emerging technologies are evolving for the next phase of digital commerce.",
-    url: "https://www.linkedin.com/pulse/mastercard-visa-back-new-alliance-prepare-era-perez-blandon-gvxac/?trackingId=IlnSJadlR9qKvg44Uu%2Fu3g%3D%3D",
-    image: "/images/insights/mastercard-visa-alliance.jpg",
+      "Why creator relevance, audience fit and credibility are becoming more strategically important than follower count alone.",
+    url: "https://www.linkedin.com/pulse/creator-economy-has-new-currency-fit-eduardo-j-perez-blandon-yccye/",
+    image: "/images/insights/creator-economy-fit.jpg",
   },
 ];
 

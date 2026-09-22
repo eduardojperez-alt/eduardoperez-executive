@@ -10,18 +10,14 @@ export function Footer11() {
       className="bg-[#1C1C1C] px-[5%] py-12 text-[#F5F3EF] md:py-16 lg:py-20"
     >
       <div className="container">
-
-        {/* MAIN FOOTER */}
         <div className="grid grid-cols-1 gap-12 border-t border-[#6B6B6B] pt-10 md:grid-cols-[1.5fr_0.7fr_0.9fr] md:gap-12 md:pt-12">
-
-          {/* IDENTITY */}
           <div>
             <h2 className="mb-3 text-xl font-bold md:text-2xl">
               EDUARDO PÉREZ BLANDÓN
             </h2>
 
             <p className="mb-5 max-w-sm text-sm">
-              Business Builder. Growth Strategist. Executive.
+              Business Builder · Growth & Transformation Executive
             </p>
 
             <a
@@ -44,47 +40,17 @@ export function Footer11() {
             </div>
           </div>
 
-          {/* NAVIGATION */}
           <nav aria-label="Footer navigation">
             <ul className="space-y-4 text-sm font-semibold">
-              <li>
-                <a href="#top" className="transition-opacity hover:opacity-70">
-                  Home
-                </a>
-              </li>
-              <li>
-                <a href="#about" className="transition-opacity hover:opacity-70">
-                  About
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#experience"
-                  className="transition-opacity hover:opacity-70"
-                >
-                  Experience
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#insights"
-                  className="transition-opacity hover:opacity-70"
-                >
-                  Insights
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#contact"
-                  className="transition-opacity hover:opacity-70"
-                >
-                  Contact
-                </a>
-              </li>
+              <li><a href="#home" className="transition-opacity hover:opacity-70">Home</a></li>
+              <li><a href="#value" className="transition-opacity hover:opacity-70">Value</a></li>
+              <li><a href="#approach" className="transition-opacity hover:opacity-70">Approach</a></li>
+              <li><a href="#impact" className="transition-opacity hover:opacity-70">Impact</a></li>
+              <li><a href="#experience" className="transition-opacity hover:opacity-70">Experience</a></li>
+              <li><a href="#insights" className="transition-opacity hover:opacity-70">Insights</a></li>
             </ul>
           </nav>
 
-          {/* PERSPECTIVES */}
           <nav aria-label="Publications and perspectives">
             <ul className="space-y-4 text-sm font-semibold">
               <li>
@@ -97,7 +63,6 @@ export function Footer11() {
                   BizPay Pulse
                 </a>
               </li>
-
               <li>
                 <a
                   href="https://www.linkedin.com/newsletters/marketing-tech-insights-7435552123867578368/"
@@ -108,7 +73,6 @@ export function Footer11() {
                   Marketing & Tech Insights
                 </a>
               </li>
-
               <li>
                 <a
                   href="https://forbes.com.mx/manana-todas-las-ventas-seran-digitales/"
@@ -119,7 +83,6 @@ export function Footer11() {
                   Forbes México
                 </a>
               </li>
-
               <li>
                 <a
                   href="https://mx.linkedin.com/in/eduardojperezblandon/es"
@@ -134,18 +97,8 @@ export function Footer11() {
           </nav>
         </div>
 
-        {/* BOTTOM */}
         <div className="mt-10 flex flex-col gap-4 border-t border-[#6B6B6B] pt-6 text-sm md:mt-12 md:flex-row md:items-center md:justify-between">
-          <p>
-            © 2026 Eduardo Pérez Blandón. All rights reserved.
-          </p>
-
-          <a
-            href="#"
-            className="underline underline-offset-4 transition-opacity hover:opacity-70"
-          >
-            Privacy Policy
-          </a>
+          <p>© 2026 Eduardo Pérez Blandón. All rights reserved.</p>
         </div>
       </div>
     </footer>

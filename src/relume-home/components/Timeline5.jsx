@@ -80,7 +80,7 @@ export function Timeline5() {
                   Build and scale
                 </h4>
                 <p>
-                  Scaled a commercial services business across Mexico and Central America, building new capabilities, client relationships and sustainable growth.
+                  Scaled a commercial services business across Mexico and Central America from ~$9M to ~$32M, building capabilities, client relationships and sustainable growth.
                 </p>
               </div>
             </div>
